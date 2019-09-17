@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="graphql-kotlin-ktor" />
+        <module name="graphqlKotlinKtor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="graphql-kotlin-ktor" target="1.8" />
+      <module name="graphql-kotlin-ktor.main" target="11" />
+      <module name="graphql-kotlin-ktor.test" target="11" />
+      <module name="graphqlKotlinKtor" target="1.8" />
+      <module name="graphqlKotlinKtor.main" target="1.8" />
+      <module name="graphqlKotlinKtor.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

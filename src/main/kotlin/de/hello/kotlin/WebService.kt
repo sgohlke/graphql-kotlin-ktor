@@ -47,7 +47,7 @@ fun main(args: Array<String>) {
             get("/") {
                 call.respondText("Hello REST " + LocalDateTime.now(), ContentType.Text.Html)
             }
-            get("/person") { ctx -> call.respondText("List of available Persons " + PersonStorage.personList.toString()) }
+            get("/person") { _ -> call.respondText("List of available Persons " + PersonStorage.personList.toString()) }
             get("/person/{index}") {
                 val personIndex = call.parameters["index"]!!.toIntOrNull()
                 call.respond(if (personIndex == null) Person(1, "UNKNOWN", "UNKNOWN", 999) else PersonStorage.personList.get(personIndex.toInt()))

@@ -6,7 +6,7 @@ Hello Kotlin will run on port 7001. You can run it either in IntelliJ Idea by ru
 The federation schema can be tested by importing it into Apollo Gateway, see https://github.com/sgohlke/apollo-api-gateway-example.
 
 Use Dockerfile(example):
-- Run maven package in project
+- Run gradle build in project
 - Execute **docker build -t kotlingql .** in project root folder
 - Run **docker run --name kotlingql -d -p 7001:7001 kotlingql**
 
