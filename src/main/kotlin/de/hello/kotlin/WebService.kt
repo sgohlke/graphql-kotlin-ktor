@@ -22,8 +22,8 @@ import io.ktor.routing.post
 import io.ktor.routing.routing
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
-import org.slf4j.LoggerFactory
 import java.time.LocalDateTime
+import org.slf4j.LoggerFactory
 
 val logger = LoggerFactory.getLogger("de.hello")!!
 
@@ -34,12 +34,16 @@ fun main(args: Array<String>) {
         install(CallLogging)
         install(ContentNegotiation) {
             jackson {
-                configure(SerializationFeature.INDENT_OUTPUT, true)
-                setDefaultPrettyPrinter(DefaultPrettyPrinter().apply {
-                    indentArraysWith(DefaultPrettyPrinter.FixedSpaceIndenter.instance)
-                    indentObjectsWith(DefaultIndenter("  ", "\n"))
-                })
-                registerModule(JavaTimeModule())  // support java.time.* types
+                configure(
+                    SerializationFeature.INDENT_OUTPUT, true
+                )
+                setDefaultPrettyPrinter(
+                    DefaultPrettyPrinter().apply {
+                        indentArraysWith(DefaultPrettyPrinter.FixedSpaceIndenter.instance)
+                        indentObjectsWith(DefaultIndenter("  ", "\n"))
+                    }
+                )
+                registerModule(JavaTimeModule()) // support java.time.* types
             }
         }
 
@@ -50,7 +54,7 @@ fun main(args: Array<String>) {
             get("/person") { _ -> call.respondText("List of available Persons " + PersonStorage.personList.toString()) }
             get("/person/{index}") {
                 val personIndex = call.parameters["index"]!!.toIntOrNull()
-                call.respond(if (personIndex == null) Person(1, "UNKNOWN", "UNKNOWN", 999) else PersonStorage.personList.get(personIndex.toInt()))
+                call.respond(getPerson(personIndex))
             }
             post("/graphql") {
                 val query = call.receive(GraphQLRequest::class).query
@@ -68,4 +72,10 @@ fun main(args: Array<String>) {
         }
     }
     server.start(wait = true)
+}
+
+fun getPerson(personIndex: Int?): Any {
+    if (personIndex == null) {
+        return Person(1, "UNKNOWN", "UNKNOWN", 999)
+    } else return PersonStorage.personList.get(personIndex.toInt())
 }
