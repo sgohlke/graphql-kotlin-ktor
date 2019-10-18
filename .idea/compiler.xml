@@ -11,8 +11,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="graphql-kotlin-ktor" target="1.8" />
-      <module name="graphql-kotlin-ktor.main" target="11" />
-      <module name="graphql-kotlin-ktor.test" target="11" />
+      <module name="graphql-kotlin-ktor.main" target="12" />
+      <module name="graphql-kotlin-ktor.test" target="12" />
       <module name="graphqlKotlinKtor" target="1.8" />
       <module name="graphqlKotlinKtor.main" target="1.8" />
       <module name="graphqlKotlinKtor.test" target="1.8" />
