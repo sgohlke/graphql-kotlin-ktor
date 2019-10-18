@@ -29,7 +29,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "5.1.0"
     id("org.jlleitschuh.gradle.ktlint") version "9.0.0"
     id("com.github.ben-manes.versions") version "0.27.0"
-    id ("net.ossindex.audit") version "0.4.11"
+    id("net.ossindex.audit") version "0.4.11"
 
     // Apply the application plugin to add support for building a CLI application.
     application
