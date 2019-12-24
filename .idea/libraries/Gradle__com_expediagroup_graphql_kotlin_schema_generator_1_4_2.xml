@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.expediagroup:graphql-kotlin-schema-generator:1.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.expediagroup/graphql-kotlin-schema-generator/1.4.2/d183026f8957e23114d784dc2f5b2c697e72e304/graphql-kotlin-schema-generator-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.expediagroup/graphql-kotlin-schema-generator/1.4.2/399e729339bbf7004ac8e9d72181c288743da924/graphql-kotlin-schema-generator-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

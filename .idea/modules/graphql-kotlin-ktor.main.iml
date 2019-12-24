@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="graphql-kotlin-ktor:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -Werror" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.2.6/78603b66c02d891f26f3aff013665c0f96363924/ktor-server-netty-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-host-common/1.2.6/79f9591f89ac2ed5c53082cc6bd2a5fd9543c51e/ktor-server-host-common-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-jackson/1.2.6/627ae937306dce52343a0e90016d562ef01f6a6c/ktor-jackson-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-core/1.2.6/cd445b59a9ab6d004cf5d1bfa3c923928608d294/ktor-server-core-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.2.6/589de9e89ad199325f6406d62bcb9205d8c400f/ktor-http-cio-jvm-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.2.6/f30e7c74d45d55b08573f316cd7bb7345118289d/ktor-http-jvm-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network/1.2.6/5f1edf6cb5be380a0b61ad822e784444ad715ec4/ktor-network-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.2.6/1bb9d795318790e37af7f8f1079108d7cd538dfe/ktor-utils-jvm-1.2.6.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.61/e91d61b7cfd9a45566b580fef18bbd5c32d505b5/kotlin-stdlib-jdk8-1.3.61.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.10.1/52ee272b0181a1c0df5c931235c494b1e0e022d0/jackson-datatype-jsr310-2.10.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.expediagroup/graphql-kotlin-federation/1.4.2/335bc90ef861758d00a2e0a297488a8b3e12093b/graphql-kotlin-federation-1.4.2.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.expediagroup/graphql-kotlin-schema-generator/1.4.2/d183026f8957e23114d784dc2f5b2c697e72e304/graphql-kotlin-schema-generator-1.4.2.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.10.1/dbf6b074958ba8d80bc9552e7690bbbfe7ad79d3/jackson-module-kotlin-2.10.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.1/18eee15ffc662d27538d5b6ee84e4c92c0a9d03e/jackson-databind-2.10.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.30/e606eac955f55ecf1d8edcccba04eb8ac98088dd/slf4j-simple-1.7.30.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.61/70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066/kotlin-stdlib-jdk7-1.3.61.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.61/2e07c9a84c9e118efb70eede7e579fd663932122/kotlin-reflect-1.3.61.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.3.2-1.3.60/2383daa22d894c0a81505629db3ee00cb94f4001/kotlinx-coroutines-jdk8-1.3.2-1.3.60.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io-jvm/0.1.16/b2bcf3815337e34b598b9e9a579fe5ec0f8a3ab4/kotlinx-coroutines-io-jvm-0.1.16.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.2-1.3.60/657012d71508f1e66e31791750758cf148d57ed/kotlinx-coroutines-core-1.3.2-1.3.60.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-jvm/0.1.16/121c7a446719b21f8f1275134d6073aa22b23121/kotlinx-io-jvm-0.1.16.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.16/a148ebbf458bb8c787ded007a62a6f53324358e1/kotlinx-coroutines-io-0.1.16.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.16/c2bb49e5fa65eed71e1ea0dc12e78619296a01fd/kotlinx-io-0.1.16.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.3.2-1.3.60/40ddbf44e6e72cab7c77f9a074b06bb0e3ea5782/kotlinx-coroutines-core-common-1.3.2-1.3.60.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.1/54d72475c0d6819f2d0e9a09d25c3ed876a4972f/jackson-annotations-2.10.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.1/2c8b5e26ba40e5f91eb37a24075a2028b402c5f9/jackson-core-2.10.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.graphql-java/graphql-java/13.0/f3d5c387cf09a13922f719fc984e7b6cbf2a3ccf/graphql-java-13.0.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.8.53/b5484b6c14f1a28d8d57156c41b43afb3a309889/classgraph-4.8.53.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.14.1/e0072a7ad62fbec16d8490fb298da7d76d0ae347/atomicfu-0.14.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.1/2cf7a6cc79732e3bdf1647d7404279900ca63eb0/config-1.3.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.37.Final/c2fee26cc289edade4179450cec89117678fecda/netty-codec-http2-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.37.Final/1654df842769258b33667c9cf759efdd8cb368e1/netty-transport-native-kqueue-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.37.Final/6030aed0cfaec6cc4634fb9860e4df11dc468a49/netty-transport-native-epoll-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7.2/e27d8ab4f984f9d186f54da984a6ab1cccac755e/antlr4-runtime-4.7.2.jar:/home/steve/.gradle/caches/modules-2/files-2.1/com.graphql-java/java-dataloader/2.1.1/2ac1e4f0764030853195bf89eb4bd0bbe2151eb2/java-dataloader-2.1.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/home/steve/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.14.1/323b5e62491623e6670ebe593af2ebfbf46cb210/atomicfu-common-0.14.1.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.37.Final/2f48ca593911154dadcc710707f7278327467c21/netty-codec-http-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.37.Final/a242f98517b4dc1a53a0eb7dad8ad30d4f4b9f2e/netty-handler-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.37.Final/631e6e0004deb18cb4fc4e3ba353b7a10a72fe07/netty-codec-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.37.Final/2d4deaf1b170f725e2f00c93fe381f6f111238ed/netty-transport-native-unix-common-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.37.Final/8d20aa332547064fd7a8387df2462b314cc2a970/netty-transport-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.37.Final/5ff3deb0f20fc69c54a366e21c7d383b499dedb2/netty-buffer-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.37.Final/64952c248bec760f3505025faf6d9cc64da1402c/netty-resolver-4.1.37.Final.jar:/home/steve/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.37.Final/a4361300ca3ee2cd6c67c4f84c507164b99cea99/netty-common-4.1.37.Final.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="graphql-kotlin-ktor" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.61/e5feb39c8de63dcbdc1154b34ca4413874231605/kotlin-script-runtime-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.61/169747d90a1ccdd30b25c381a06bee3fe579bf2/kotlin-scripting-common-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.61/b9311f022363534f8776e4392aa9c4f4d5a62a44/kotlin-scripting-jvm-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.1/3839faf625f4197acaeceeb6da000f011a2acb49/kotlinx-coroutines-core-1.2.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-host-common:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-jackson:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:1.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.expediagroup:graphql-kotlin-federation:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.expediagroup:graphql-kotlin-schema-generator:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:1.7.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.61" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.3.2-1.3.60" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io-jvm:0.1.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2-1.3.60" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io-jvm:0.1.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.61" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.2-1.3.60" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.graphql-java:graphql-java:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.classgraph:classgraph:4.8.53" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu:0.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:antlr4-runtime:4.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.graphql-java:java-dataloader:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.37.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.37.Final" level="project" />
+  </component>
+</module>

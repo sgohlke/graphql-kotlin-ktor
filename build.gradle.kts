@@ -8,8 +8,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
  * This generated file contains a sample Kotlin application project to get you started.
  */
 
-val graphQLVersion: String = "1.3.0"
-val kTorVersion: String = "1.2.5"
+val graphQLVersion: String = "1.4.2"
+val kTorVersion: String = "1.2.6"
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.allWarningsAsErrors = true
@@ -25,9 +25,9 @@ repositories {
 
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.3.50"
-    id("com.github.johnrengelman.shadow") version "5.1.0"
-    id("org.jlleitschuh.gradle.ktlint") version "9.0.0"
+    id("org.jetbrains.kotlin.jvm") version "1.3.61"
+    id("com.github.johnrengelman.shadow") version "5.2.0"
+    id("org.jlleitschuh.gradle.ktlint") version "9.1.1"
     id("com.github.ben-manes.versions") version "0.27.0"
     id("net.ossindex.audit") version "0.4.11"
 
@@ -36,17 +36,17 @@ plugins {
 }
 
 dependencies {
-    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.3.50"))
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.3.61"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.10.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.10.1")
     implementation("com.expediagroup:graphql-kotlin-schema-generator:$graphQLVersion")
     implementation("com.expediagroup:graphql-kotlin-federation:$graphQLVersion")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.0")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1")
     implementation("io.ktor:ktor-server-netty:$kTorVersion")
     implementation("io.ktor:ktor-jackson:$kTorVersion")
-    implementation("org.slf4j:slf4j-simple:1.7.28")
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.3.50")
-    implementation(enforcedPlatform("com.pinterest:ktlint:0.35.0"))
+    implementation("org.slf4j:slf4j-simple:1.7.30")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.3.61")
+    implementation(enforcedPlatform("com.pinterest:ktlint:0.36.0"))
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
