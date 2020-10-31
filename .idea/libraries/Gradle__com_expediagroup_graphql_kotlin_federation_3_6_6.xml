@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.expediagroup:graphql-kotlin-federation:3.6.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.expediagroup/graphql-kotlin-federation/3.6.6/e53ddb54cf6898f04d8a08a3380ea0b3ac1903ea/graphql-kotlin-federation-3.6.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.expediagroup/graphql-kotlin-federation/3.6.6/aff8a4b7eb041b402eef560855d6dbc81b90c23f/graphql-kotlin-federation-3.6.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

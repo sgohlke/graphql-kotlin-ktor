@@ -8,6 +8,7 @@
       <module name="graphqlKotlinKtor" target="1.8" />
       <module name="graphqlKotlinKtor.main" target="1.8" />
       <module name="graphqlKotlinKtor.test" target="1.8" />
+      <module name="IdeaProjects.graphql-kotlin-ktor" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
