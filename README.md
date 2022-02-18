@@ -1,4 +1,7 @@
 # graphql-kotlin-ktor
+
+> **Note**: This is a playground project project and may not use up-to-date depenencies!
+
 GraphQL example using Ktor
 
 ## How to run
